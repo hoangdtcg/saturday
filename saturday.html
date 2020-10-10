@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saturday</title>
+</head>
+<input type="number" id="number1">
+<input type="number" id="number2">
+<button onclick="calculator('cong')">+</button>
+<button onclick="calculator('tru')">-</button>
+<button onclick="calculator('nhan')">X</button>
+<button onclick="calculator('chia')">/</button>
+<p id="result">0</p>
+<body>
+<script>
+//     let number = prompt("Enter a number: ");// Nhap so tu ban phim
+//
+//     // check if number is greater than 0
+//     if (number > 0) { // Neu so do lon hon 0
+//         console.log("The number is positive");// Hien thi ra 'day la so duong'
+//     }
+// // check if number is 0
+//     else if (number == 0) { // neu so do bang 0
+//         console.log("The number is 0"); //Hien thi 'day la so 0'
+//     }
+// // if number is neither greater than 0, nor zero
+//     else {
+//         console.log("The number is negative");// hien thi ra day la so am
+//     }
+//
+//     console.log("The if...else if...else statement is easy");
+
+// let number = prompt("Enter a number: ");
+    //
+    // if (number >= 0) {
+    //     if (number == 0) {
+    //         console.log("You entered number 0");
+    //     } else {
+    //         console.log("You entered a positive number");
+    //     }
+    // } else {
+    //     console.log("You entered a negative number");
+    // }
+
+// let result;
+//
+// // take the operator input
+// let operator = prompt('Enter operator ( either +, -, * or / ): ');
+
+// take the operand input
+// let number1 = parseFloat(prompt('Enter first number: '));
+// let number2 = parseFloat(prompt('Enter second number: '));
+//
+// switch(operator) {
+//     case '+':
+//         result = number1 + number2;
+//         console.log(`${number1} + ${number2} = ${result}`);
+//         break;
+//
+//     case '-':
+//         result = number1 - number2;
+//         console.log(`${number1} - ${number2} = ${result}`);
+//         break;
+//
+//     case '*':
+//         result = number1 * number2;
+//         console.log(`${number1} * ${number2} = ${result}`);
+//         break;
+//
+//     case '/':
+//         result = number1 / number2;
+//         console.log(`${number1} / ${number2} = ${result}`);
+//         break;
+// }
+//     function calculator(operator) {
+//         let number1 = parseFloat(document.getElementById('number1').value);
+//         let number2 = parseFloat(document.getElementById('number2').value);
+//         let result = 0;
+//
+//         switch (operator) {
+//             case 'cong':
+//                 result = number1 + number2;
+//                 break;
+//             case 'tru':
+//                 result = number1 - number2;
+//                 break;
+//             case 'nhan':
+//                 result = number1 * number2;
+//                 break;
+//             case 'chia':
+//                 result = number1 / number2;
+//                 break;
+//         }
+//
+//         document.getElementById('result').innerHTML = 'Ket qua phep tinh la: '+result;
+//     }
+
+    let name = 'Thao';
+    let es5 = 'Ten toi la '+name+'<br>';
+    document.write(es5);
+    let es6 = `Ten toi la ${name}`;
+    // let es6 = 'Ten toi la ${name}';
+    document.write(es6);
+</script>
+</body>
+</html>
